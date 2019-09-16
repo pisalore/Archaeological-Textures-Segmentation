@@ -7,12 +7,13 @@ In the code it's presented a part to make compatibile the dataset (originally in
 
 Created by [Lorenzo Pisaneschi](https://www.linkedin.com/in/lorenzo-pisaneschi-aaa4b3123).
 
-#Getting started
+# Getting started
 
 For use the software, firstly clone this repository:
 **Linux**
-'''
+```
 git clone https://github.com/pisalore/Archeological-Textures-Segmentation
-'''
+```
+
 **Windows**
 If you are a Windows User, you can clone the repository using GitHub Desktop (download it [here](https://desktop.github.com/)).
