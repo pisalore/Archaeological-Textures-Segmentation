@@ -47,5 +47,6 @@ For obtaining the right dataset, you have to do the following steps:
 ```
 python3 make_seg_files.py
 ```
+```
 python3 make_seg_file_list.py
 ```
