@@ -27,7 +27,7 @@ Once Python it's installed, you need:
 
 - [Tensorflow](https://www.tensorflow.org/).
 - [h5py](https://github.com/h5py/h5py) (for handling h5 files that are the effective inputs of the network).
-- [Scipy] (https://www.scipy.org/index.html) (for manipulating and converting matlab files).
+- [Scipy](https://www.scipy.org/index.html) (for manipulating and converting matlab files).
 - Numpy
 - Matplotlib (optional).
 
