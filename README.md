@@ -32,3 +32,20 @@ Once Python it's installed, you need:
 - Matplotlib (optional).
 
 You can install all these packages via **pip**.
+Once installed, you can use the code and then train and test.
+
+## Generate the dataset
+
+Once you have succesfully cloned the repository and installed all the required parts, you have to generate the compatible pointnet dataset from the **.mat** files you have. In fact, you have two folders containing .mat files:
+
+- Dataset_processed folder, which contain the point cloud coordinates.
+- SHREK18_Labels, consisting in the Ground Truth of our 3D models.
+
+For obtaining the right dataset, you have to do the following steps:
+
+1. Generate the **.seg files** for labelling vertices (infact, the original dataset provides labelled factes, not vertices that are required in pointnet) running the *make_seg_files*; then, generating the **seg filelist** running *make_seg_file_list*.
+```
+python3 make_seg_files.py
+```
+python3 make_seg_file_list.py
+```
