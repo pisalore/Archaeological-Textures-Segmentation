@@ -24,9 +24,11 @@ If you are a Windows User, you can clone the repository using GitHub Desktop (do
 
 The code it's all implemented in **Python**. So, you have to install [Python 3](https://www.python.org/downloads/) firstly.
 Once Python it's installed, you need:
+
 -[Tensorflow](https://www.tensorflow.org/).
 -[h5py](https://github.com/h5py/h5py) (for handling h5 files that are the effective inputs of the network).
 -[Scipy] (https://www.scipy.org/index.html) (for manipulating and converting matlab files).
 -Numpy
 -Matplotlib (optional).
+
 You can install all these packages via **pip**.
