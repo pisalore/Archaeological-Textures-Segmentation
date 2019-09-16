@@ -10,6 +10,7 @@ Created by [Lorenzo Pisaneschi](https://www.linkedin.com/in/lorenzo-pisaneschi-a
 # Getting started
 
 For use the software, firstly clone this repository:
+
 **Linux**
 ```
 git clone https://github.com/pisalore/Archeological-Textures-Segmentation
