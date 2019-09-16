@@ -28,6 +28,7 @@ Once Python it's installed, you need:
 - [Tensorflow](https://www.tensorflow.org/).
 - [h5py](https://github.com/h5py/h5py) (for handling h5 files that are the effective inputs of the network).
 - [Scipy](https://www.scipy.org/index.html) (for manipulating and converting matlab files).
+- [Plyfile](https://pypi.org/project/plyfile/) very important for ply files manipulation.
 - Numpy
 - Matplotlib (optional).
 
@@ -43,10 +44,26 @@ Once you have succesfully cloned the repository and installed all the required p
 
 For obtaining the right dataset, you have to do the following steps:
 
-1. Generate the **.seg files** for labelling vertices (infact, the original dataset provides labelled factes, not vertices that are required in pointnet) running the *make_seg_files*; then, generating the **seg filelist** running *make_seg_file_list*.
+1. Generate the **.seg files** for labelling vertices (infact, the original dataset provides labelled factes, not vertices that are required in pointnet) running the *make_seg_files*; then, generate the **seg filelist** running *make_seg_file_list*.
 ```
 python3 make_seg_files.py
 ```
 ```
 python3 make_seg_file_list.py
 ```
+2. Generate the **.ply files** for obtain Polygon File Format files for visualization (for example in [MeshLab](http://www.meshlab.net/#download)) and obtaining .h5 files in a subsequent step, running *make_ply_files; then, generate also the 
+**ply filelist** running *make_py_file_list*.
+```
+python3 make_ply_files.py
+```
+```
+python3 make_ply_file_list.py
+```
+3. Genarate the **.pts files** which contains the point cloud coordinates and are needful for testing, running *make_pts_files*; than, like for .ply and .seg files, generate the **pts fileslist** runing *make_pts_file_list*.
+```
+python3 make_pts_files.py
+```
+```
+python3 make_pts_file_list.py
+```
+
