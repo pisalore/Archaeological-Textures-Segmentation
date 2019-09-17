@@ -128,7 +128,14 @@ For the image "EgyptFaceDense":
 
 In this image are shown the GT, PRED, and DIFF files.
 
+### Papers, Documents and Links
+Here there is a list of intersting materials used developing this project:
+- [GitHub Pointnet page](https://github.com/charlesq34/pointnet)
+- [Pointnet Introduction](http://stanford.edu/~rqi/pointnet/). See also [this page](https://arxiv.org/abs/1612.00593) for downloading related paper .
+- [Shrec'18 Geometric Patterns Recognition](https://www.researchgate.net/publication/325166002_SHREC'18_track_Recognition_of_geometric_patterns_over_3D_models)
+- [Representing 3D Texture on Mesh Manifolds for Retrieval and Recognition Applications](https://www.researchgate.net/publication/291522152_Representing_3D_Texture_on_Mesh_Manifolds_for_Retrieval_and_Recognition_Applications), a related work.
 
+![patterns](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/patterns.png)
 
 
 
