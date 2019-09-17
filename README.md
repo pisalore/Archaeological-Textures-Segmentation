@@ -120,6 +120,7 @@ For the image "EgyptFaceDense":
 - Accuracy: 74%
 - IoU: 80%
 
+![example](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/efd.png)
 
 
 
