@@ -1,7 +1,7 @@
 # Archeological Textures Segmentation
 
 ![banner](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/ATS.png)
-![patterns](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/patterns.png)
+![patterns](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/patterns1.png)
 
 The segmentation of different **geoemetric textures** in a 3D image could be useful to classify different styles and/or peculiar characteristics that should be in common in different objects: a sculture, a building, an archeological fragment, for example. However, if part segmentation is a challenging 3D recognition task, **3D pattern recognition** it's more challenging. 
 
