@@ -89,3 +89,18 @@ The last step, it's to generate the testing list running the *make_testing_file_
 python3 make_testing_file_list.py
 ```
 That's all. Now you can train and test the network with the created dataset.
+Firstly, you have to run the script **train.py**:
+
+```
+python3 train.py
+```
+This script will generate a *train_results* folder with a diagram describing the train process, logs and trained model.
+Then, you have to run the **test.py** script:
+```
+python3 test.py
+```
+This procedure will generate a *test_results* folder, with logs and three kind of **.obj** files:
+1. GT files, which describes the Ground Truth.
+2. PRED files, which are the results of training and testing; these files define what the network has learnt.
+3. DIFF files, which highlight the difference between GT and PRED files.
+You can open these files in Meshlab to visualize how the network has worked.
