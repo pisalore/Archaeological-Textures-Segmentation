@@ -108,3 +108,18 @@ This procedure will generate a *test_results* folder, with logs and three kind o
 2. PRED files, which are the results of training and testing; these files define what the network has learnt.
 3. DIFF files, which highlight the difference between GT and PRED files.
 You can open these files in Meshlab to visualize how the network has worked.
+
+## Results
+In this section, some results are shown. The mesaures for evaluate the process are **accuracy** and **IoU** ([intersection over union](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)).
+These are the parameters selected:
+- Epochs: 100
+- Batch size: 4
+- Points number: 512
+
+For the image "EgyptFaceDense": 
+- Accuracy: 74%
+- IoU: 80%
+
+![example](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/efd.png)
+
+
