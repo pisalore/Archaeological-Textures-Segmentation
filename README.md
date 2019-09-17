@@ -33,6 +33,7 @@ Once Python it's installed, you need:
 - Matplotlib (optional).
 
 You can install all these packages via **pip**.
+
 Once installed, you can use the code and then train and test.
 
 ## Generate the dataset
