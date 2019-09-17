@@ -71,7 +71,7 @@ python3 make_pts_file_list.py
 ```
 
 Now you have all the necessary to use pointnet, but ther is a fundamental step.
-However, pointnet has been projected to work with input made of 256, 512, 1024 or 2048 points; our dataset it's formed by images of different number of points (like 60243, 55480, 10495...). So, the idea it's to train and test the network using one image at time, splitting out its points in sub-dataset consisting in sub-images of 256, 512, 1024 or 2048 points. 
+So, pointnet has been projected to work with input made of 256, 512, 1024 or 2048 points; our dataset it's formed by images of different number of points (like 60243, 55480, 10495...). So, the idea it's to train and test the network using one image at time, splitting out its points in sub-dataset consisting in sub-images of 256, 512, 1024 or 2048 points. 
 The code presented split out an image in sub-images of 512 points, because experiments find out which splitting in sub samples of 512 points improves accuracy (but you can obviously using differents splitting criteria).
 So, all you have to do it's to run *obtain_dataset* script.
 ```
