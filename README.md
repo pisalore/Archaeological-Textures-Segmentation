@@ -1,7 +1,4 @@
 # Archeological Textures Segmentation
-
-![face1](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/face104.png)
-
 The segmentation of different **geoemetric textures** in a 3D image could be useful to classify different styles and/or peculiar characteristics that should be in common in different objects: a sculture, a building, an archeological fragment, for example. However, if part segmentation is a challenging 3D recognition task, **3D pattern recognition** it's more challenging. 
 
 In this work, given a dataset of archeological 3D images defined by a different number of *point cloud*, an import type of geometric data structure, the aim is to use [Pointnet](https://github.com/charlesq34/pointnet), a neural network that makes deep learning on 3D point sets, to locate and segment geometric textures and analyze the efficacy of this task
