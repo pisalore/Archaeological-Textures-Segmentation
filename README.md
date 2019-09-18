@@ -1,6 +1,6 @@
 # Archaeological Textures Segmentation
 
-![banner](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/ATS.png)
+![banner](https://github.com/pisalore/Archaeological-Textures-Segmentation/blob/master/doc/ATS.jpg)
 
 The segmentation of different **geoemetric textures** in a 3D image could be useful to classify different styles and/or peculiar characteristics that should be in common in different objects: a sculture, a building, an archaeological fragment, for example. However, if part segmentation is a challenging 3D recognition task, **3D pattern recognition** it's more challenging. 
 
@@ -124,7 +124,7 @@ For the image "EgyptFaceDense":
 - Accuracy: 74%
 - IoU: 80%
 
-![example](https://github.com/pisalore/Archeological-Textures-Segmentation/blob/master/doc/eyb%20(1).png)
+![example](https://github.com/pisalore/Archaeological-Textures-Segmentation/blob/master/doc/eyb%20(1).png)
 
 In this image are shown the GT, PRED, and DIFF files.
 
