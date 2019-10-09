@@ -83,7 +83,7 @@ python3 obtain_dataset.py
 Once done this step, you have to create the *training_filelist.txt* and the *testing_filellst.txt* in the data folder, and then fill them with the name of the files you want to use for training and testing in the **train** procedure using pointnet. Remember: you have to choose a number of files for training and testing list divisible for the batch size selected (the default batch size is 4, so for example, if you have obtained from an image of 
 10495 points 20 sub images each made of 512 points, it's advisible to select 16 files for training and 4 for testing).
 
-Now, the most important step it's to generate the **.h5 files for training and testing**, the real pointnet input. You have simply to run the *make_hdf5_files*, which will be saved in the data/hdf5_data folder.
+Now, the most important step it's to generate the **.h5 files for training and testing**, the real pointnet input. You have simply to run the *make_hdf5_files*, which will save .h5 files in data/hdf5_data folder.
 
 ```
 python3 make_hdf5_files.py
